@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: brown;
+      color: floralwhite;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px 20px 0px 20px;
+      height: 60px;
+    }
+
+    .black {
+      background-color: black;
+      color: floralwhite;
+      height: 100px;
+      padding-top: 55px;
+      padding-left: 55px;
+      font-size: 22px;
+    }
+
+    .items {
+      background-image: url(https://images.unsplash.com/photo-1477346611705-65d1883cee1e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+      height: 250px;
+      width: 1200px;
+      border-radius: 10px;
+      margin: 70px;
+    }
+
+    .items {
+      font-size: 20px;
+      display: flex;
+      flex-direction: column;
+      padding-top: 30px;
+    }
+
+    .Tent {
+      color: white;
+      padding-top: 150px;
+      margin-left: 20px;
+    }
+    .cards {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-content: center;
+    }
+    .container {
+      width: 95%;
+      margin: 0 auto;
+    }
+    .list-cards {
+      display: flex;
+    }
+    .list {
+      flex-basis: 20%;
+    }
+    .cards {
+      flex-basis: 80%;
+      gap: 20px;
+    }
+    .ul {
+      margin: 10px;
+    }
+    .title {
+      font-size: 25px;
+      margin-bottom: 15px;
+    }
+    .last {
+      margin-top: 30px;
+      margin-left: 320px;
+    }
+  </style>
+
+  <body>
+    <div
+      style="
+        background-color: black;
+        color: floralwhite;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 10px;
+        height: 60px;
+      "
+    >
+      <span
+        style="
+          background-color: brown;
+          color: floralwhite;
+          border-radius: 5px;
+          font-size: 22px;
+        "
+      >
+        Announcement
+      </span>
+      <h3>How we're responding to COVID-19</h3>
+    </div>
+
+    <header>
+      <h1 class="logo">Acme</h1>
+      <nav>
+        <ul style="list-style: none; display: flex; column-gap: 50px">
+          <li><a href="/contact.html">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/shop.html">Shop</a></li>
+          <li>Donate</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="black">
+      <h1>Shop our Product</h1>
+    </div>
+
+    <div class="items">
+      <div class="item">
+        <span
+          style="
+            background-color: white;
+            color: black;
+            margin-left: 85%;
+            border-radius: 5px;
+            padding: 5px 20px;
+          "
+        >
+          Featured Item
+        </span>
+      </div>
+      <div class="Tent">
+        <h3>White Tent</h3>
+        <h3>$200.00 USD</h3>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="container">
+        <div class="title">
+          <h5>Shop by Category</h5>
+        </div>
+        <div class="list-cards">
+          <div class="list">
+            <ul
+              style="
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+              "
+            >
+              <li
+                style="
+                  border: 1px solid black;
+                  text-align: center;
+                  padding: 5px 10px;
+                  border-radius: 5px;
+                "
+              >
+                Gift Cards
+              </li>
+              <li
+                style="
+                  border: 1px solid black;
+                  text-align: center;
+                  padding: 5px 10px;
+                  border-radius: 5px;
+                "
+              >
+                Tents
+              </li>
+              <li
+                style="
+                  border: 1px solid black;
+                  text-align: center;
+                  padding: 5px 10px;
+                  border-radius: 5px;
+                "
+              >
+                Accessories
+              </li>
+              <li
+                style="
+                  border: 1px solid black;
+                  text-align: center;
+                  padding: 5px 10px;
+                  border-radius: 5px;
+                "
+              >
+                Packs
+              </li>
+            </ul>
+          </div>
+          <div class="cards">
+            <div class="card">
+              <div style="height: 400px; width: 300px">
+                <img
+                  style="border-radius: 10px; height: 100%; width: 100%"
+                  src="https://c1.wallpaperflare.com/preview/71/1012/891/cup-mug-enamel-skull.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="word">
+                <p>White Tent</p>
+                <p>220$</p>
+                <br />
+                <span
+                  style="
+                    background-color: brown;
+                    padding: 5px 15px;
+                    border-radius: 5px;
+                    color: floralwhite;
+                  "
+                >
+                  Details</span
+                >
+              </div>
+            </div>
+
+            <div class="card">
+              <div style="height: 400px; width: 300px">
+                <img
+                  style="border-radius: 10px; height: 100%; width: 100%"
+                  src="https://c1.wallpaperflare.com/preview/71/1012/891/cup-mug-enamel-skull.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="word">
+                <p>Tin Coffee Tumbler</p>
+                <h5>$ 35.00 USD</h5>
+                <br />
+                <span
+                  style="
+                    background-color: brown;
+                    padding: 5px 15px;
+                    border-radius: 5px;
+                    color: floralwhite;
+                  "
+                >
+                  Details.</span
+                >
+              </div>
+            </div>
+
+            <div class="card">
+              <div style="height: 400px; width: 300px">
+                <img
+                  style="border-radius: 10px; width: 100%; height: 100%"
+                  src="https://www.sunnysports.com/blog/wp-content/uploads/2017/09/backpacking-feature-image.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="word">
+                <p>White Tent</p>
+                <p>220$</p>
+                <br />
+                <span
+                  style="
+                    background-color: brown;
+                    padding: 5px 15px;
+                    border-radius: 5px;
+                    color: floralwhite;
+                  "
+                >
+                  Details</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="last">
+      <div style="height: 400px; width: 300px">
+        <img
+          style="border-radius: 10px; width: 100%; height: 100%"
+          src="https://www.sunnysports.com/blog/wp-content/uploads/2017/09/backpacking-feature-image.jpg"
+          alt=""
+        />
+      </div>
+      <div class="word">
+        <p>White Tent</p>
+        <p>220$</p>
+        <br />
+        <span
+          style="
+            background-color: brown;
+            padding: 5px 15px;
+            border-radius: 5px;
+            color: floralwhite;
+          "
+        >
+          Details</span
+        >
+      </div>
+    </div>
+  </body>
+</html>
